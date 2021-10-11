@@ -102,12 +102,12 @@ Noob_Compiler = Noob_Compiler's Blog = 卷不死就往死里卷！</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicmnywqgpj20zk0m8dwx.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicitspjpbj20zk0m81ky.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicivghyooj20zk0m8dir.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipexw3o58j20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeyonbf9j20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipet4bz0yj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipexe4oykj20zk0m87ji.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclhpw3lwj20zk0m8gvw.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclh3brzpj20zk0m8ann.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciszlczyj20zk0m816d.jpg"></li>
         </ul>
       </div>
     </header>
@@ -158,7 +158,7 @@ Noob_Compiler = Noob_Compiler's Blog = 卷不死就往死里卷！</title>
 <p>先考虑这样一种情况：</p>
 <p><strong>Bob 刚开始只在当前子树中向下走</strong></p>
 <p>通过画图模拟可以发现，当 Bob 向下走走到叶子节点或其通往更深层的子树的边都被 Alice 封住的时候，它就陷入了一个通往父亲结点的路被弄脏，向下又走不通的局面，这时 Alice 不要先去清理路径让 Bob 向上走，而是要去做另一些有意义的事情</p>
-<p><img data-src="C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211011171543273.png" alt=""></p>
+<p><img data-src="https://z3.ax1x.com/2021/10/11/5ZqDUO.png" alt=""></p>
 <p>如上图，<strong>假设</strong>（注意只是假设，不要去问为什么 Alice 刚开始不去堵 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>→</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">2\to 4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 的边） Bob 初始在二号结点，最后被堵在了七号节点，棕色的边是被弄脏了的边，红色的是被堵住的边。现在 Alice 该做什么呢？</p>
 <p>显然不是去清理路径直接放 Bob 向上走，因为 Bob 向上走的时候可能会遇到其他可以进入的子树再跳下去，不会让减少 Alice 的操作次数。所以 Alice 要趁 Bob 不能走的时候，将其之后向上走的路径上通往其他子树的边全部堵住。</p>
 <p>接下来来探究 Bob 的策略：</p>
@@ -204,7 +204,7 @@ g[u]+dp[v]&gt;mid
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2021-10-11 20:16:28" itemprop="dateModified" datetime="2021-10-11T20:16:28+08:00">2021-10-11</time>
+    <time title="Modified: 2021-10-11 20:22:52" itemprop="dateModified" datetime="2021-10-11T20:22:52+08:00">2021-10-11</time>
   </span>
 </div>
 
@@ -236,7 +236,7 @@ g[u]+dp[v]&gt;mid
     <div class="item left">
       
 
-  <a href="/%E4%BF%A1%E5%8F%B7%E4%BC%A0%E9%80%92/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giciszlczyj20zk0m816d.jpg" title="省选联考2020·信号传递">
+  <a href="/%E4%BF%A1%E5%8F%B7%E4%BC%A0%E9%80%92/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipeubcbajj20zk0m8h1h.jpg" title="省选联考2020·信号传递">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>省选联考2020·信号传递</h3>
@@ -359,6 +359,15 @@ g[u]+dp[v]&gt;mid
 <div class="breadcrumb">
 </div>
 
+    <span><a href="/%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/" title="积性函数初步">积性函数初步</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
     <span><a href="/CEOI2017%C2%B7Mousetrap/" title="CEOI2017·Mousetrap">CEOI2017·Mousetrap</a></span>
   </li>
 
@@ -369,15 +378,6 @@ g[u]+dp[v]&gt;mid
 </div>
 
     <span><a href="/%E4%BF%A1%E5%8F%B7%E4%BC%A0%E9%80%92/" title="省选联考2020·信号传递">省选联考2020·信号传递</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/" title="积性函数初步">积性函数初步</a></span>
   </li>
 
   </ul>
